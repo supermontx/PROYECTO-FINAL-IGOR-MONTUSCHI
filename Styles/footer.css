@@ -1,0 +1,29 @@
+.footer-wrapper {
+    background-color: rgba(25,26,29,255);
+    height: 140px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+.footer-wrapper > .boxes {
+    height: 57px;
+    border: grey 1.5px solid ;
+    background-color: rgba(54,56,63,255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.footer-wrapper > .boxes > .common {
+    color: white;
+    text-decoration: none;
+    
+}
+

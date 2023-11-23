@@ -1,0 +1,231 @@
+.navigation-menu {
+    background-color: rgba(0,0,0,255);
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* LEFT-COLUMN */
+
+.navigation-menu > .left-column {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.navigation-menu > .left-column > .menu-logo img {
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 25px;   
+}
+
+/* CENTER-COLUMN */
+
+
+.navigation-menu > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 60px;
+    position: absolute;
+    left: 330px;
+    
+}
+
+.navigation-menu > .center-column > .explore {
+    height: 15px;
+}
+
+.navigation-menu > .center-column > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 30px;
+    width: 330px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+a.nav {
+        color: white;
+        text-decoration: none;
+        width: 70px;
+       
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper {
+    display: flex;
+    width: 90px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper a {
+    text-decoration: none;
+}
+
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper  > .menu-spark {
+    display: none;
+    border-radius: 3px;
+    overflow:  hidden;
+    background-color: rgb(48, 45, 45);
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    min-width: 150px;
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper:hover > .menu-spark {
+    display: block;
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper  > .menu-spark ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper  > .menu-spark li a {
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    
+    
+}
+
+.navigation-menu > .center-column > .links-wrapper > .spark-wrapper  > .menu-spark li a:hover {
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+
+
+/* RIGHT-COLUMN */
+
+
+
+.navigation-menu > .right-column {
+    display: flex;
+    position: absolute;
+    right: 8px;
+    gap: 10px;
+}
+
+.navigation-menu > .right-column > .create-wrapper {
+    background-color: rgba(54,56,63,255);
+    width: 130px;
+    height: 55px;
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+   
+
+}
+
+
+
+.navigation-menu > .right-column > .create-wrapper a {
+    text-decoration: none;
+}
+
+.navigation-menu > .right-column > .create-wrapper > .menu-create {
+    display: none;
+    border-radius: 3px;
+    overflow:  hidden;
+    background-color: rgb(48, 45, 45);
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    min-width: 150px;
+}
+
+.navigation-menu > .right-column > .create-wrapper:hover > .menu-create{
+    display: block;
+}
+
+.navigation-menu > .right-column > .create-wrapper  > .menu-create ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navigation-menu > .right-column > .create-wrapper  > .menu-create li a {
+    color: white;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    
+    
+}
+
+.navigation-menu > .right-column > .create-wrapper  > .menu-create li a:hover {
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+.navigation-menu > .right-column > .Log-In {
+    background-color: rgba(54,56,63,255);
+    width: 130px;
+    height: 55px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.navigation-menu > .right-column > .search-icon {
+    color: grey;
+    font-size: 2.1em;
+    margin: 6px 13px 0px 13px
+}
+
+.navigation-menu > .right-column > .search-icon > .search-box {
+    display: none;
+    
+
+}
+
+
+.navigation-menu > .right-column > .search-icon:hover > .search-box {
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(241, 237, 237);
+    border-radius: 20px;
+    align-items: center;
+    position: absolute;
+    top: 55px;
+}
+.navigation-menu > .right-column > .search-icon:hover > .search-box input {
+    width: 200px; 
+    height: 25px; 
+    
+}
+
+
+
+
+
+
+.navigation-menu > .right-column > .Sing-up {
+    background-color: rgba(54,56,63,255);
+    width: 130px;
+    height: 55px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
